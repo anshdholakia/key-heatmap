@@ -1,0 +1,26 @@
+{
+  "name": "Keyboard Heat Map",
+  "description": "Tracks the history of your keyboard clicks and gives you a heat map of it",
+  "version": "0.1.0",
+  "host_permissions":["<all_urls>"],
+  "manifest_version": 3,
+  "content_scripts": [
+  ],
+  "background":{"service_worker": "background.js"},
+  "permissions": [],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/logo.png",
+      "32": "images/logo.png",
+      "48": "images/logo.png",
+      "128": "images/logo.png"
+    }
+  },
+  "icons": {
+    "16": "images/logo.png",
+    "32": "images/logo.png",
+    "48": "images/logo.png",
+    "128": "images/logo.png"
+  }
+}
